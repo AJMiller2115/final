@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Stopwatch</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="./final.css">
+	<script type="text/javascript" src="./final.js"></script>
+</head>
+<body>
+	<div id="allbodycontent">
+	<h1>Countdown Stopwatch Final Assignment</h1>	
+			<div id="swArea" style="visibility:visible">
+				<h1>Stopwatch</h1>
+				<div id="swDisplay">00:00:00</div>
+					<div id="buttons">
+						<span id="swStart" class="btn1">Start</span> <br><br><br>  
+						<span id="swReset" class="btn5">Reset</span>
+					</div>
+				</div>
+				<button id="resetOutput" type="submit"  onClick="refreshPage()">Reset All</button>
+	</div>
+	<div id="allbodycontent">	      
+			<div id="cdArea" style="visibility:visible">
+				<h1>Countdown Timer</h1>
+				<p>
+					<p>Please enter a time up to 10 minutes (mm:ss:hh)</p>
+					<input id="timeInput" type="text" size="10" maxlength="10">
+				</p>
+				<div id="cdDisplay">00:00:00</div><br>
+				<p>
+					<span id="startTime" class="btn3">Start/Pause Timer</span>
+				</p>	
+			</div>
+	</div>
+	<div id="allbodycontent">
+		<div id="debug">	
+		<h2>Debug Event Information</h3>
+		<p><br><br>
+			<span id="debugOnOff" style="visibility:visible">Debug On/Off</span>
+			<span id="hideDebug" style="visibility:visible">Hide Debug</span>
+		</p>	
+        <hr style="margin-top: 50px">
+        <div id="debugOutput" style="visibility:visibile">
+        </div>
+	</div>
+    </div>
+	
+</body>
+</html>

@@ -1,0 +1,113 @@
+body {
+	position: relative;
+	text-align: center; 
+	margin: 0 auto; 
+	width: 900px; 
+	font-size: 100%;
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	color: lightgrey;
+}
+
+#allbodycontent {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	margin-bottom: 20px;
+    border: 10px groove black;
+	background: #595959;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: monospace;
+}
+
+#buttons {
+	position: absolute;
+	top: 30px;
+	left: 200px;
+}
+
+#swArea {
+	border: 2px solid black;
+    margin: 10px 10px 30px 20px;
+	padding: 10px;
+	position: relative;
+	text-align: left;
+	top: 20px;
+    width: 300px; 
+	height: 100px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+#cdArea {
+	border: 2px solid black;
+    margin: 10px 10px 30px 20px;
+	padding: 5px 30px 40px 30px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+    width: 300px; 
+	height: 200px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5 {
+	border: 2px solid black; 
+	width: 100px; 
+	height: 40px;
+	border-radius: 20%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: monospace;
+}
+
+.btn1, .btn3 {
+	background: #008080;
+
+}
+
+.btn5 {
+	left: 37px; 
+	background: grey;
+}
+
+span {
+	padding: 10px 20px 10px 20px;
+	margin: 50px 0px 10px 10px;
+	background-color: #800060;
+	border: 2px solid black;
+	color: lightgray;
+	border-radius: 20%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#debug {
+	text-align: left;
+	margin: 20px;
+}
+
+#swDisplay, #cdDisplay {
+	font-size: 22px;
+}
+
+#resetOutput {
+	padding: 10px 20px 10px 20px;
+	background-color: #ff0040;
+	border: 2px solid black;
+	color: black;
+	border-radius: 20%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: monospace;
+	font-size: 100%;
+	position: absolute;
+	left: 700px;
+	top: 800px;
+
+}
